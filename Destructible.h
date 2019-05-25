@@ -21,7 +21,7 @@ public:
      * Getter for the value of this destructible object's health
      * @return Integer representing health value
      */
-    virtual int health() = 0;
+    virtual int& health() = 0;
 
     /**
      * Getter for the value of this destructible object's maximum health
